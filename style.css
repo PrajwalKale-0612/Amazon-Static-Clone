@@ -1,0 +1,330 @@
+*{
+   margin :0px;
+   padding: 0px;
+   border: border-box;
+}
+
+.navbar{
+   height: 70px;
+   background-color: rgb(43, 42, 42);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: white;
+}
+
+.border :hover{
+   border: 1px solid white;
+}
+.nav-logo{
+   height: 50px;
+   width: 100px;
+}
+.logo{
+   background-image: url("amazon_clone.jpg");
+   background-size: cover;
+   height: 50px;
+   width: 100%;
+}
+
+.loc-first{
+   margin-left: 13px;
+   color: rgb(250, 248, 248);
+}
+.nav-loc-ind{
+   display: flex;
+   align-items: center;
+}
+.loc-second{
+   margin-left: 2px;
+   font-weight: bolder;
+}
+
+.nav-search{
+   display: flex;
+   width: 625px;
+   height: 40px;
+   justify-content: space-evenly;
+
+}
+.search-icon{
+   width: 25px;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   background-color: #febd68;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #0f1111;
+}
+.search-select{
+   background-color: #f3f3f3;
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   text-align: center;
+   width: 50px;
+   border: none;
+   
+}
+
+.search-input{
+   width: 100%;
+   font-size: 1rem;
+   border: none;
+}
+
+.nav-hello{
+   font-size: 0.35cm;
+}
+.nav-acc{
+   font-size: 0.47cm;
+   font-weight:bolder;
+}
+
+.nav-re{
+   font-size: 0.35cm;
+}
+.nav-off{
+   font-size: 0.47cm;
+   font-weight:bolder;
+}
+
+.nav-shop i{  /** aapan multiple selector pan use karu shakto jas aapan nav-shop madhil i varch apply hone.**/
+     font-size: 40px;
+}
+
+.nav-shop{
+   font-size: 1.2rem;
+   font-weight: 70%;
+}
+
+.panel{
+   height: 40px;
+   width: 100%;
+   background-color: #222f3d;
+   color: white;
+   font-weight: 70%;
+   display: flex;
+   align-items: center;
+}
+
+.panel-option{
+   display: flex;
+}
+.panel-option p{
+   display: inline;
+   margin-left: 12px;
+}
+
+.hero-sec{
+   height: 350px;
+   background-image: url("hero_section.jpg");
+   background-size: cover;
+   display: flex;
+   align-items: end; 
+   justify-content: center;
+
+}
+
+.hero-msg{
+   background-color: white;
+   color: black;
+   height: 40px;
+   width: 80%;
+   margin-bottom: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 0.85rem;
+   font-weight: bold;
+}
+
+.hero-msg a{
+   color: #007185;
+}
+
+.shop-sec{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   background-color: #f9f64a;
+}
+.box{
+   height: 400px;
+   width: 23%;
+   background-color: white;
+   padding: 20px 0px 15px;
+   margin-top:15px;
+}
+
+.box1-img{
+   margin-top: 15px;
+   height: 300px;
+   background-image: url("box_1.jpg");
+}
+
+.box1 p{
+   margin-top: 23px;
+   color: #007185;
+}
+.box2-img{
+   margin-top: 15px;
+   height: 300px;
+   background-image: url("box_2.jpg");
+}
+
+.box2 p{
+   margin-top: 23px;
+   color: #007185;
+}
+.box3-img{
+   margin-top: 15px;
+   height: 300px;
+   background-image: url("box_3.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.box3 p{
+   margin-top: 23px;
+   color: #007185;
+}
+.box4-img{
+   margin-top: 15px;
+   height: 300px;
+   background-image: url("box_4.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.box4 p{
+   margin-top: 23px;
+   color: #007185;
+}
+
+
+.box5-img{
+   margin-top: 15px;
+   height: 300px;
+   background-image: url("box_5.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.box5 p{
+   margin-top: 23px;
+   color: #007185;
+}
+
+.box6-img{
+   margin-top: 15px;
+   height: 300px;
+   background-image: url("box_6.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.box6 p{
+   margin-top: 23px;
+   color: #007185;
+}
+
+.box7-img{
+   margin-top: 15px;
+   height: 300px;
+   background-image: url("box_7_.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.box7 p{
+   margin-top: 23px;
+   color: #007185;
+}
+
+.box8-img{
+   margin-top: 15px;
+   height: 300px;
+   background-image: url("box_8.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.box8 p{
+   margin-top: 23px;
+   color: #007185;
+}
+
+.foot-panel1{
+   background-color: #37475a;
+   color: white;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 0.85rem;
+   font-weight: bold;
+}
+
+footer{
+   margin-top: 15px;
+}
+
+.foot-panel2{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: #222f3d;
+   color: white;
+   height: 500px;
+}
+
+ul{
+   margin-top: 20px;
+}
+ul p{
+   font-weight: bold;
+}
+ul a{
+   display: flex;
+   font-size: 0.85rem;
+   margin-top: 10px;
+   color: #dddddd;
+   font-weight: bold;
+}
+
+.foot-panel3{
+   background-color: #222f3d;
+   border-top: 0.5px solid white;
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo1{
+   background-image: url("amazon_clone.jpg");
+   background-size: cover;
+   height: 50px;
+   width: 100px;
+}
+
+.foot-panel4{
+   background-color: #0f1111;
+   color: white;
+   height: 100px;
+   font-size: 0.7rem;
+   text-align: center;
+
+}
+
+.pages{
+   padding-top:25px;
+}
+
+.pages a{
+   margin-left: 10px;
+}
+
+.copy-write{
+   padding-top: 5px;
+}
